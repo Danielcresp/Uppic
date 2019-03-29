@@ -1,8 +1,11 @@
-alert('Hola');
-var numeros = [400,200,1,-23];
-var numerosMas1 = numeros.map(function(numeros){
-    return numeros+1;
+var page = require('page');
+var main = document.getElementById('main-container');
+page('/', function(ctx,next){
+    main.innerHTML='Home <a href="/signup">Signup</a>';//Home
 })
-var numerosMas2 = numeros.map(n => n+2);
-console.log(numerosMas1);
-console.log(numerosMas2);
+
+page('/signup', function(ctx,next){
+    main.innerHTML='SignUp <a href="/">Home</a>'; //SIgnUp
+})
+// page();
+page.start()
