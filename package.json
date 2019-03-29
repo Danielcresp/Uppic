@@ -1,0 +1,33 @@
+{
+  "name": "uppic",
+  "version": "0.1.0",
+  "description": "Interactua con las imagenes de todos los usuarios de Uppic",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielcresp/Uppic.git"
+  },
+  "keywords": [
+    "imagenes",
+    "Uppic",
+    "pictures",
+    "up"
+  ],
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Danielcresp/Uppic/issues"
+  },
+  "homepage": "https://github.com/Danielcresp/Uppic#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "materialize-css": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
