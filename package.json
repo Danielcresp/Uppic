@@ -23,11 +23,16 @@
   "homepage": "https://github.com/Danielcresp/Uppic#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "materialize-css": "^1.0.0"
+    "materialize-css": "^1.0.0",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.3",
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "vinyl-source-stream": "^2.0.0"
   }
 }
