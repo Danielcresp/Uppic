@@ -25,10 +25,12 @@
   },
   "homepage": "https://github.com/Danielcresp/Uppic#readme",
   "dependencies": {
+    "empty-element": "^1.0.0",
     "express": "^4.16.4",
     "materialize-css": "^1.0.0",
     "page": "^1.11.4",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "yo-yo": "^1.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
