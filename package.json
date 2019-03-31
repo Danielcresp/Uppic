@@ -4,7 +4,10 @@
   "description": "Interactua con las imagenes de todos los usuarios de Uppic",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "start": "node server.js",
+    "gulp": "gulp watch & node server.js"
   },
   "repository": {
     "type": "git",
@@ -34,6 +37,7 @@
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
   }
 }
