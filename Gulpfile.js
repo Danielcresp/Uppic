@@ -9,7 +9,7 @@ gulp.task('style', done => {
     gulp.src('index.scss')
         .pipe(sass())
         .pipe(rename('style.css'))
-        .pipe(gulp.dest('src/css'));
+        .pipe(gulp.dest('public'));
         done();
 });
 gulp.task('assets',done=>{

@@ -6,8 +6,8 @@ var signupForm = yo`<div class="col s12 m7">
             <h1 class="uppic">Uppic</h1>
             <form action="" class="signup-form">
                 <div class="section">
-                    <a href="" class="btn btn-fb hide-on-small-only">Sesión con Facebook</a>
-                    <a href="" class="btn btn-go hide-on-small-only">Sesión con Google</a>
+                    <a href="" class="btn btn-fb hide-on-small-only"><i class="fab fa-facebook-square spacef"></i>Inicia Sesión con Facebook</a>
+                    <a href="" class="btn btn-go hide-on-small-only"><i class="fab fa-google spaceg"></i>  Inicia Sesión con Google</a>
                     <a href="" class="btn btn-fb hide-on-med-and-up">Iniciar sesión</a>
                 </div>
                 <div class="divider"></div>
