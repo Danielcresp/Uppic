@@ -14,7 +14,7 @@ page('/', function(ctx,next){
             },
             url: 'puente.jpg',
             likes: 1204,
-            liked: true
+            liked: false
         },
         {
             user:{
