@@ -78,3 +78,31 @@ body{
 .timeline{
     padding: 30px 0;
 }
+$avatar-size:48px;
+.avatar{
+    width: $avatar-size;
+    height: $avatar-size;
+    border-radius: 50%;
+    float: left;
+    margin-right: 12px;
+}
+.card small.time{
+    line-height: $avatar-size;
+    padding-right: 24px;
+}
+.card p{
+    padding-top: 5px;
+    padding-right: 24px;
+    padding-bottom: 5px;
+    padding-left: 24px;
+}
+.card .likes{
+    line-height: 30px;
+    margin-left: 12px;
+}
+.card i{
+    font-size: 30px;
+}
+.card .fa-heart{
+    color: $secondary-color;
+}

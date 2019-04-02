@@ -9,7 +9,7 @@ gulp.task('style', done => {
     gulp.src('index.scss')
         .pipe(sass())
         .pipe(rename('style.css'))
-        .pipe(gulp.dest('public'));
+        .pipe(gulp.dest('assets'));
         done();
 });
 gulp.task('assets',done=>{
@@ -54,6 +54,6 @@ gulp.task('watch',done =>{
     return compile(true);
     done();
 });
-gulp.task('default', gulp.series('style','assets','build'));
+gulp.task('default', gulp.series('style','assets'));
 
 
