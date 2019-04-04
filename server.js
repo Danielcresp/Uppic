@@ -11,6 +11,7 @@ app.get('/signup', function(req,res){
 app.get('/signin', function(req,res){
     res.render('index',{title:'Uppic - Signin'});
 })
+
 app.listen(3000,function(err){
     if (err) return console.log("Hubo un error"),process.exit(1);
     console.log("Uppic running in port 3000");

@@ -1,4 +1,6 @@
 var yo = require('yo-yo');
+var translate = require('../translate')
+
 module.exports = function layout(content){
     return yo`<div>
     <nav class="header">
@@ -13,7 +15,7 @@ module.exports = function layout(content){
                 <i class="fas fa-user"></i>
                 </a>
                     <ul id='drop-user' class='dropdown-content'>
-                    <li><a href="#">Salir</a></li>
+                    <li><a href="#">${translate.message('logout')}</a></li>
                 </ul>
             </div>
             </div>

@@ -8,6 +8,7 @@ module.exports = {
     'spanish': 'Spanish',
     'signup.subheading': 'Signup to watch your friends\' pictures studying at Platzi',
     'signup.facebook': 'Signup with Facebook',
+    'signup.google': 'Signup with Google',
     'signup.text': 'Signup',
     'email': 'Email',
     'username': 'Username',
